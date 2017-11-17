@@ -4,9 +4,13 @@
   "version": "1.0.0",
   "author": "Kyle Mathews <mathews.kyle@gmail.com>",
   "dependencies": {
+    "foundation-sites": "^6.4.4-rc1",
     "gatsby": "^1.9.114",
     "gatsby-link": "^1.6.28",
-    "gatsby-plugin-react-helmet": "^1.0.8"
+    "gatsby-plugin-react-helmet": "^1.0.8",
+    "gatsby-plugin-sass": "^1.0.13",
+    "react-fade-in": "^0.1.5",
+    "react-fontawesome": "^1.6.1"
   },
   "keywords": [
     "gatsby"

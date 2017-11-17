@@ -1,0 +1,33 @@
+.top-bar, .top-bar ul {
+    background-color: $nav-background;
+}
+
+.current-page {
+    color: white;
+}
+
+.top-bar-right {
+    .menu-text {
+        color: $nav-text-color;
+    }
+    a {
+        -o-transition:.5s;
+        -ms-transition:.5s;
+        -moz-transition:.5s;
+        -webkit-transition:.5s;
+        transition:.5s;
+      }
+      a:hover { 
+          background:$light-grey-border; 
+        }
+}
+
+.menu > .logo {
+    color: $nav-text-color;
+    transition: all .2s ease-in-out; 
+}
+
+.logo:hover { 
+    transform: scale(1.2); 
+    color: #1779ba;
+}

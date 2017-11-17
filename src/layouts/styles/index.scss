@@ -1,0 +1,28 @@
+@import '~foundation-sites/scss/util/util';
+@import '~foundation-sites/scss/foundation';
+
+@include foundation-everything;
+
+@import "base/variables";
+@import "components/app";
+@import "components/navigation";
+@import "components/home";
+@import "components/portfolio";
+@import "components/contact";
+@import "components/contactform";
+@import "components/fonts";
+
+html {
+  font-family: sans-serif;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+body {
+  margin: 0;
+}
+
+@media only screen and (max-width: 480px) {
+  html {
+    font-size: 100%;
+  }
+}
