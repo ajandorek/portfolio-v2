@@ -1,44 +1,15 @@
-.container__form {
-    padding: 1rem 1rem 0 1rem;
-    border: 1px solid $light-grey-border;
-    border-radius: 25px;
-    background: #fff;
-
-    label {
-        color: $grey;
-    }
-}
-
 .grid-container {
     .header {
         font-style: italic;
         color: $grey;
-        padding-top: 10px;
     }
 }
 
-.input-group-rounded {
-    .input-group-field {
-      border-radius: 5px;
-      padding-left: 5px;
-      border-style: solid;
-      border-width: 1px;
-      border-color: $home-subhead-color;
-      box-shadow: none;
-    }
+.contact-link {
+    font-size: 2rem;
+    transition: all .2s ease-in-out; 
 }
 
-.button {
-    margin-top: 1rem;
-    border-radius: 5px;
-}
-
-.button.hollow:hover {
-    background: #1779ba;
-    color: #fff;
-    transition:.5s;
-}
-
-textarea {
-    resize: none;
+.contact-link:hover { 
+    transform: scale(1.1); 
 }
