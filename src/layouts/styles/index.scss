@@ -24,7 +24,51 @@ body {
 }
 
 @media only screen and (max-width: 480px) {
-  html {
-    font-size: 100%;
+
+  .logo{
+    font-size: 24px;
+    margin: 0 auto;
+  }
+  .top-bar-left {
+    text-align: center
+  }
+
+  .top-bar-right > .menu {
+    margin: 0 auto;
+    width: 70%;
+    
+  }
+
+  h1{
+    text-align: center;
+    font-weight: bold;
+  }
+
+  h3 {
+    text-align: center;
+  }
+
+  .header > img{ 
+    width: 90%;
+    margin: 0 auto;
+    float: none;
+    display: block;
+  }
+
+  li {
+    margin: 0 auto;
+  }
+
+  .grid-container{
+    width: 100%;
+  }
+
+  .icon-container{
+    width: 100%;
+  }
+
+  .grid-x > .cell { 
+    width: 90%;
+    margin: 0 auto;
   }
 }

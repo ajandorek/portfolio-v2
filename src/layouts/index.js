@@ -7,29 +7,27 @@ import './styles/index.scss'
 
 const Header = () => (
   <div>
-  <div className="top-bar">
-    <div className="top-bar-left">
-      <ul className="menu">
-        <Link to="/" className="menu-text logo">Alec Jandorek</Link>
-      </ul>
-    </div>
-    <div className="top-bar-right">
-      <ul className="menu">
-        <li>
-          <Link to="/"
-            className='currentPage'
-            activeClassName='currentPage'>Home</Link>
-        </li>
-        <li>
-          <Link to="/portfolio" activeClassName='currentPage'>Portfolio</Link>
-        </li>
-        <li>
-          <Link to="/contact" activeClassName='currentPage'>Contact</Link>
-        </li>
-      </ul>
+    <div className="top-bar" data-responsive-toggle="main-menu" data-hide-for="medium">
+      <div className="top-bar-left">
+        <ul className="menu">
+          <Link to="/" className="menu-text logo">Alec Jandorek</Link>
+        </ul>
+      </div>
+      <div className="top-bar-right">
+        <ul className="menu">
+          <li>
+            <Link to="/">Home</Link>
+          </li>
+          <li>
+            <Link to="/portfolio">Portfolio</Link>
+          </li>
+          <li>
+            <Link to="/contact">Contact</Link>
+          </li>
+        </ul>
+      </div>
     </div>
   </div>
-</div>
 )
 
 const TemplateWrapper = ({ children }) => (
