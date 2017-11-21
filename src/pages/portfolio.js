@@ -1,5 +1,6 @@
 import React from 'react';
 import FadeIn from 'react-fade-in';
+import FontAwesome from 'react-fontawesome';
 
 const Portfolio = () => (
   <FadeIn>
@@ -16,6 +17,13 @@ const Portfolio = () => (
           <h5 className='text-center'>Technologies Used</h5>
           <p className='text-center'>jQuery & AJAX</p>
         </a>
+        <a className='callout git' href='https://github.com/ajandorek/maps-app' target="blank">
+        <FontAwesome
+              className="icon"
+              name='github'
+              size='4x'
+            />
+        </a>
       </div>
       <div className="small-4 cell">
         <a className="callout" href="http://react-sports.herokuapp.com/"
@@ -25,6 +33,13 @@ const Portfolio = () => (
           <p className='text-center'>An application that allows a user to search for local pickup games.</p>
           <h5 className='text-center'>Technologies Used</h5>
           <p className='text-center'>React, Redux, MongoDB, Express, Auth0</p>
+        </a>
+        <a className='callout git' href='https://github.com/ajandorek/pickup-sports-app' target="blank">
+        <FontAwesome
+              className="icon"
+              name='github'
+              size='4x'
+            />
         </a>
       </div>
     </div>
@@ -38,6 +53,13 @@ const Portfolio = () => (
           <h5 className='text-center'>Technologies Used</h5>
           <p className='text-center'>Javascript</p>
         </a>
+        <a className='callout git' href='https://github.com/ajandorek/week-3-game' target="blank">
+        <FontAwesome
+              className="icon"
+              name='github'
+              size='4x'
+            />
+        </a>
       </div>
       <div className="small-4 cell">
         <a className="callout" href="http://overwatch-rpg.herokuapp.com/"
@@ -47,6 +69,13 @@ const Portfolio = () => (
           <p className='text-center'>A role playing game with an Overwatch spin!</p>
           <h5 className='text-center'>Technologies Used</h5>
           <p className='text-center'>jQuery & jQueryUI</p>
+        </a>
+        <a className='callout git' href='https://github.com/ajandorek/week-4-game' target="blank">
+        <FontAwesome
+              className="icon"
+              name='github'
+              size='4x'
+            />
         </a>
       </div>
     </div>
@@ -60,6 +89,13 @@ const Portfolio = () => (
           <h5 className='text-center'>Technologies Used</h5>
           <p className='text-center'>jQuery, Node, Express</p>
         </a>
+        <a className='callout git' href='https://github.com/ajandorek/friend-finder' target="blank">
+        <FontAwesome
+              className="icon"
+              name='github'
+              size='4x'
+            />
+        </a>
       </div>
       <div className="small-4 cell">
         <a className="callout" href="https://dry-tundra-67737.herokuapp.com/"
@@ -69,6 +105,13 @@ const Portfolio = () => (
           <p className='text-center'>A simple application that lets a user create and eat burgers.</p>
           <h5 className='text-center'>Technologies Used</h5>
           <p className='text-center'>SQL, Sequelize, Express, Handlebars, jQuery</p>
+        </a>
+        <a className='callout git' href='https://github.com/ajandorek/sequelizedBurger' target="blank">
+        <FontAwesome
+              className="icon"
+              name='github'
+              size='4x'
+            />
         </a>
       </div>
     </div>
@@ -82,6 +125,13 @@ const Portfolio = () => (
           <h5 className='text-center'>Technologies Used</h5>
           <p className='text-center'>jQuery, Firebase, Moment.js</p>
         </a>
+        <a className='callout git' href='https://github.com/ajandorek/train-scheduler' target="blank">
+        <FontAwesome
+              className="icon"
+              name='github'
+              size='4x'
+            />
+        </a>
       </div>
       <div className="small-4 cell">
         <a className="callout" href="http://vast-fjord-35673.herokuapp.com/"
@@ -91,6 +141,13 @@ const Portfolio = () => (
           <p className='text-center'>Allows users to search for and view GIFs from the Giphy API.</p>
           <h5 className='text-center'>Technologies Used</h5>
           <p className='text-center'>jQuery & AJAX</p>
+        </a>
+        <a className='callout git' href='https://github.com/ajandorek/giphy-homework' target="blank">
+        <FontAwesome
+              className="icon"
+              name='github'
+              size='4x'
+            />
         </a>
       </div>
     </div>
