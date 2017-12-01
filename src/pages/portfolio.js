@@ -28,7 +28,7 @@ const Portfolio = () => (
       <div className="small-4 cell">
         <a className="callout" href="http://react-sports.herokuapp.com/"
           target="blank">
-          <h4 className='text-center'>PickUp (Under Construction)</h4>
+          <h4 className='text-center'>PickUp</h4>
           <img src={require('../images/react-sports.png')} />
           <p className='text-center'>An application that allows a user to search for local pickup games.</p>
           <h5 className='text-center'>Technologies Used</h5>
