@@ -13,7 +13,7 @@ const Portfolio = () => (
           target="blank">
           <h4 className='text-center'>Map Fun</h4>
           <img src={require('../images/map-fun.png')} />
-          <p className='text-center'>A maps application that gives the user information about a city.</p>
+          <p className='text-center'>A maps app that gives the user information about a city.</p>
           <h5 className='text-center'>Technologies Used</h5>
           <p className='text-center'>jQuery & AJAX</p>
         </a>
@@ -30,7 +30,7 @@ const Portfolio = () => (
           target="blank">
           <h4 className='text-center'>PickUp</h4>
           <img src={require('../images/react-sports.png')} />
-          <p className='text-center'>An application that allows a user to search for local pickup games.</p>
+          <p className='text-center'>An app that allows a user to search for local pickup games.</p>
           <h5 className='text-center'>Technologies Used</h5>
           <p className='text-center'>React, Redux, MongoDB, Express, Auth0</p>
         </a>
@@ -49,7 +49,7 @@ const Portfolio = () => (
           target="blank">
           <h4 className='text-center'>Fallout Hangman</h4>
           <img src={require('../images/fallout-hangman.png')} />
-          <p className='text-center'>A simple hangman game with a Fallout theme!</p>
+          <p className='text-center'>A simple hangman game with a Fallout theme.</p>
           <h5 className='text-center'>Technologies Used</h5>
           <p className='text-center'>Javascript</p>
         </a>
@@ -66,7 +66,7 @@ const Portfolio = () => (
           target="blank">
           <h4 className='text-center'>Overwatch RPG</h4>
           <img src={require('../images/overwatch-rpg.png')} />
-          <p className='text-center'>A role playing game with an Overwatch spin!</p>
+          <p className='text-center'>A role playing game with an Overwatch spin.</p>
           <h5 className='text-center'>Technologies Used</h5>
           <p className='text-center'>jQuery & jQueryUI</p>
         </a>
@@ -85,7 +85,7 @@ const Portfolio = () => (
           target="blank">
           <h4 className='text-center'>Friend Finder</h4>
           <img src={require('../images/friend-finder.png')} />
-          <p className='text-center'>A simple App that connects two users based off a survey!</p>
+          <p className='text-center'>A simple App that connects two users based off a survey.</p>
           <h5 className='text-center'>Technologies Used</h5>
           <p className='text-center'>jQuery, Node, Express</p>
         </a>
@@ -121,7 +121,7 @@ const Portfolio = () => (
           target="blank">
           <h4 className='text-center'>Train Scheduler</h4>
           <img src={require('../images/train-scheduler.png')} />
-          <p className='text-center'>An application that allows a user to schedule and monitor trains!</p>
+          <p className='text-center'>An app that allows a user to schedule and monitor trains.</p>
           <h5 className='text-center'>Technologies Used</h5>
           <p className='text-center'>jQuery, Firebase, Moment.js</p>
         </a>
