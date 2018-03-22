@@ -1,0 +1,66 @@
+[
+  {
+    "name": "Pickup",
+    "url": "http://react-sports.herokuapp.com/",
+    "desc": "An app that allows a user to search for local pickup games",
+    "tech": "React, Redux, MongoDB, Express, Auth0",
+    "github": "https://github.com/ajandorek/pickup-sports-app",
+    "image": "../images/react-sports.png"
+  },
+  {
+    "name": "Map Fun",
+    "url": "https://maps-app-ut.herokuapp.com/",
+    "desc": "A client side application for finding information about a users city",
+    "tech": "jQuery, AJAX, Bootstrap",
+    "github": "https://github.com/ajandorek/maps-app",
+    "image": "../images/map-fun.png"
+  },
+  {
+    "name": "Fallout Hangman",
+    "url": "https://fallout-hangman.herokuapp.com/",
+    "desc": "A simple hangman game with a Fallout theme",
+    "tech": "Javascript",
+    "github": "https://github.com/ajandorek/week-3-game",
+    "image": "../images/fallout-hangman.png"
+  },
+  {
+    "name": "Overwatch RPG",
+    "url": "http://overwatch-rpg.herokuapp.com/",
+    "desc": "A role playing game with an Overwatch spin.",
+    "tech": "jQuery, jQueryUI",
+    "github": "https://github.com/ajandorek/week-4-game",
+    "image": "../images/overwatch-rpg.png"
+  },
+  {
+    "name": "Friend Finder",
+    "url": "https://floating-caverns-89415.herokuapp.com/",
+    "desc": "Allows a user to find a friend based of similar survey results",
+    "tech": "jQuery, Node, Express",
+    "github": "https://github.com/ajandorek/friend-finder",
+    "image": "../images/friend-finder.png"
+  },
+  {
+    "name": "Burger Time",
+    "url": "https://dry-tundra-67737.herokuapp.com/",
+    "desc": "Allows a user to add a burger to a database then devour it!",
+    "tech": "SQL, Sequelize, Express, Handlebars, jQuery",
+    "github": "https://github.com/ajandorek/sequelizedBurger",
+    "image": "../images/burger-time.png"
+  },
+  {
+    "name": "Train Scheduler",
+    "url": "https://pacific-meadow-73127.herokuapp.com/",
+    "desc": "Take the place of a train conductor and schedule your trains",
+    "tech": "jQuery, Firebase, Moment.js",
+    "github": "https://github.com/ajandorek/train-scheduler",
+    "image": "../images/train-scheduler.png"
+  },
+  {
+    "name": "GIFtastic",
+    "url": "http://vast-fjord-35673.herokuapp.com/",
+    "desc": "Find GIFs from your favorite videogames!",
+    "tech": "jQuery, AJAX",
+    "github": "https://github.com/ajandorek/giphy-homework",
+    "image": "../images/giftastic.jpg"
+  }
+]
