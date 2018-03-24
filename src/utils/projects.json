@@ -5,7 +5,7 @@
     "desc": "An app that allows a user to search for local pickup games",
     "tech": "React, Redux, MongoDB, Express, Auth0",
     "github": "https://github.com/ajandorek/pickup-sports-app",
-    "image": "../images/react-sports.png"
+    "image": "https://imgur.com/g2Q3V8n.png"
   },
   {
     "name": "Map Fun",
@@ -13,7 +13,7 @@
     "desc": "A client side application for finding information about a users city",
     "tech": "jQuery, AJAX, Bootstrap",
     "github": "https://github.com/ajandorek/maps-app",
-    "image": "../images/map-fun.png"
+    "image": "https://imgur.com/mvmH2ZJ.png"
   },
   {
     "name": "Fallout Hangman",
@@ -21,7 +21,7 @@
     "desc": "A simple hangman game with a Fallout theme",
     "tech": "Javascript",
     "github": "https://github.com/ajandorek/week-3-game",
-    "image": "../images/fallout-hangman.png"
+    "image": "https://imgur.com/rOdmVHp.png"
   },
   {
     "name": "Overwatch RPG",
@@ -29,7 +29,7 @@
     "desc": "A role playing game with an Overwatch spin.",
     "tech": "jQuery, jQueryUI",
     "github": "https://github.com/ajandorek/week-4-game",
-    "image": "../images/overwatch-rpg.png"
+    "image": "https://imgur.com/RSj1L0q.png"
   },
   {
     "name": "Friend Finder",
@@ -37,7 +37,7 @@
     "desc": "Allows a user to find a friend based of similar survey results",
     "tech": "jQuery, Node, Express",
     "github": "https://github.com/ajandorek/friend-finder",
-    "image": "../images/friend-finder.png"
+    "image": "https://imgur.com/8Mw9F64.png"
   },
   {
     "name": "Burger Time",
@@ -45,7 +45,7 @@
     "desc": "Allows a user to add a burger to a database then devour it!",
     "tech": "SQL, Sequelize, Express, Handlebars, jQuery",
     "github": "https://github.com/ajandorek/sequelizedBurger",
-    "image": "../images/burger-time.png"
+    "image": "https://imgur.com/JHGmOhY.png"
   },
   {
     "name": "Train Scheduler",
@@ -53,7 +53,7 @@
     "desc": "Take the place of a train conductor and schedule your trains",
     "tech": "jQuery, Firebase, Moment.js",
     "github": "https://github.com/ajandorek/train-scheduler",
-    "image": "../images/train-scheduler.png"
+    "image": "https://imgur.com/dYxqkLe.png"
   },
   {
     "name": "GIFtastic",
@@ -61,6 +61,6 @@
     "desc": "Find GIFs from your favorite videogames!",
     "tech": "jQuery, AJAX",
     "github": "https://github.com/ajandorek/giphy-homework",
-    "image": "../images/giftastic.jpg"
+    "image": "https://imgur.com/JePFf7D.jpg"
   }
 ]
