@@ -35,6 +35,7 @@ const Header = () => (
 class TemplateWrapper extends React.Component {
   componentDidMount() {
     return (
+      // Script for getting Sumo to run correctly
       <Helmet>
         <script async>
           {(function(s, u, m, o, j, v) {
