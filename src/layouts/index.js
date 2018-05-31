@@ -33,24 +33,6 @@ const Header = () => (
 );
 
 class TemplateWrapper extends React.Component {
-  componentDidMount() {
-    return (
-      // Script for getting Sumo to run correctly
-      <Helmet>
-        <script async>
-          {(function(s, u, m, o, j, v) {
-            j = u.createElement(m);
-            v = u.getElementsByTagName(m)[0];
-            j.async = 1;
-            j.src = o;
-            j.dataset.sumoSiteId =
-              '9fef5e2dd604421ac345b6ec2b471c842f55a7b59193a11ec7212f2096fcbb3b';
-            v.parentNode.insertBefore(j, v);
-          })(window, document, 'script', '//load.sumo.com/')}
-        </script>
-      </Helmet>
-    );
-  }
   render() {
     return (
       <div>
