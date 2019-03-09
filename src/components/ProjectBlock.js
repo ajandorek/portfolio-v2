@@ -1,5 +1,6 @@
 import React from 'react';
-import FontAwesome from 'react-fontawesome';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faGithub } from '@fortawesome/free-brands-svg-icons'
 import LazyLoad from 'react-lazyload';
 
 const Projects = props => {
@@ -15,7 +16,7 @@ const Projects = props => {
         <p className="text-center">{props.projects.tech}</p>
       </a>
       <a className="callout git" href={props.projects.github} target="blank">
-        <FontAwesome className="icon" name="github" size="4x" />
+        <FontAwesomeIcon className="icon" icon={faGithub} size="4x" />
       </a>
     </div>
   );

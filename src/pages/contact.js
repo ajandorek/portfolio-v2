@@ -1,6 +1,7 @@
 import React from 'react';
 import FadeIn from 'react-fade-in';
-import FontAwesome from 'react-fontawesome';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faGithub, faLinkedin} from '@fortawesome/free-brands-svg-icons'
 
 const ContactPage = () => (
   <FadeIn>
@@ -13,17 +14,17 @@ const ContactPage = () => (
       <div className='grid-container'>
         <div className="icon-container">
           <a href="https://www.linkedin.com/in/alecjandorek/" target="_blank">
-            <FontAwesome
+            <FontAwesomeIcon
               className="icon"
-              name='linkedin-square'
-              size='2x'
+              icon={faLinkedin}
+              size='4x'
             />
           </a>
           <a href="https://github.com/ajandorek" target="_blank">
-            <FontAwesome
+            <FontAwesomeIcon
               className="icon"
-              name='github-square'
-              size='2x'
+              icon={faGithub}
+              size='4x'
             />
           </a>
         </div>

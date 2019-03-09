@@ -3,6 +3,7 @@ import FadeIn from 'react-fade-in';
 import Link from 'gatsby-link';
 import contactInfo from '../utils/contact.json';
 import ContactIcon from '../components/ContactIcon';
+import Languages from '../components/Languages';
 
 const IndexPage = () => (
   <FadeIn>
@@ -27,6 +28,7 @@ const IndexPage = () => (
         on. Interested in chatting about an upcoming project? Drop me a line from one of the venues
         below and be sure to check out my <Link to='resume'>resume</Link>. I look forward to hearing from you!
       </p>
+      {/* <Languages /> */}
       <hr />
       <div className="grid-container">
         <div className="icon-container">

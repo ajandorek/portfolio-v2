@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import FadeIn from 'react-fade-in';
-import FontAwesome from 'react-fontawesome';
 import projects from '../utils/projects.json';
 import ProjectBlock from '../components/ProjectBlock';
 

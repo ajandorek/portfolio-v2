@@ -1,11 +1,11 @@
 [
   {
     "url": "https://www.linkedin.com/in/alecjandorek/",
-    "icon": "linkedin"
+    "icon": ["fab", "linkedin"]
   },
   {
     "url": "https://github.com/ajandorek",
-    "icon": "github"
+    "icon": ["fab", "github"]
   },
   {
     "url": "mailto:ajandorek@gmail.com",
